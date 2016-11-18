@@ -2,9 +2,9 @@ url: https://y7kim.github.io
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: mbed Cloud quickstart
+email: support@mbed.com
+description: "mbed quickstart is the easiest and quickest way to get started with mbed client and mbed connector. The quickstart lets you choose your embedded platform / connectivity method and you web application / cloud backend, then automagically sets up all the necessary bits in between!"
 
 
 # Team names, titles and social links
