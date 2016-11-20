@@ -354,6 +354,22 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+#setup .setup-item-icon{
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    cursor:pointer;
+}
+
+#setup .setup-item-icon:hover{
+    opacity: 0.4;
+    background-color: #{{ site.data.template.color.secondary }}; 
+}
+
+#setup .setup-item:hover:after{
+    content:<i class="fa fa-microchip fa-stack-1x fa-inverse"></i>;
+    z-index: 0;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;

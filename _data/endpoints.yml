@@ -1,0 +1,32 @@
+
+- mbed OS - Ethernet:
+  title: mbed OS - Ethernet
+  url: https://github.com/blackstoneengineering/mbed-os-example-client/tree/quickstart-ethernet
+  connectivity: Ethernet
+  os: mbed OS
+  available: true
+  description: quickstart using ethernet on mbed OS
+
+- mbed OS - Wifi:
+  title: Wi-Fi
+  url: https://github.com/ARMmbed/mbed-os-example-client
+  connectivity: Wi-Fi
+  os: mbed OS
+  available: true
+  description: quickstart using wifi on mbed OS
+
+- mbed OS - Cellular:
+  title: Cellular
+  url: false
+  connectivity: cellular
+  os: mbed OS
+  available: false
+  description: quickstart using cellular on mbed OS
+
+- FreeRTOS - Ethernet:
+  title: FreeRTOS - Ethernet
+  url: false
+  connectivity: Ethernet
+  os: FreeRTOS
+  available: false
+  description: quickstart using ethernet on FreeRTOS

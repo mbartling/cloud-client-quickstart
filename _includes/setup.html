@@ -4,33 +4,43 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Setup</h2>
-                    <h3 class="section-subheading text-muted">Its as easy as 1,2,3.</h3>
+                    <h3 class="section-subheading text-muted">Easy as 1,2,3.</h3>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+                <div class="col-md-4 setup-item">
+                    <span class="fa-stack fa-4x setup-item-icon">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-microchip fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">mbed Client</h4>
-                    <p class="text-muted">Select connectivity method.</br>Wifi, Ethernet, Cellular, 6LoPan, Thread, BLE,... Compile in security.h file.</p>
+                    <p class="text-muted">Select connectivity method.</br>Wi-Fi, Ethernet, Cellular, 6LoPan, ... </br>Compile in security.h file.</p>
+                    <span class="setup-checkbox">
+                        {% for example in site.data.endpoints %}
+                        <ul><input type="checkbox">{{example.title}}</ul>
+                        {% endfor %}
+                    </span>
                 </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+                <div class="col-md-4 setup-item">
+                    <span class="fa-stack fa-4x setup-item-icon">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-server fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">mbed Cloud</h4>
                     <p class="text-muted">Register for an account. </br>Generate security.h and API Key.</p>
                 </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+                <div class="col-md-4 setup-item">
+                    <span class="fa-stack fa-4x setup-item-icon">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Your App</h4>
-                    <p class="text-muted">Select web app backend. </br>IBM Bluemix, Amazon, Microsoft, Heroku, Locally Hosted... Add API Key to enable access.</p>
+                    <p class="text-muted">Select web app backend. </br>IBM Bluemix, Amazon, Microsoft, Heroku... </br>Add API Key to enable access.</p>
+                    <span class="setup-checkbox">
+                        {% for app in site.data.webapps %}
+                        <ul><input type="checkbox">{{app.title}}</ul>
+                        {% endfor %}
+                    </span>
                 </div>
             </div>
         </div>
