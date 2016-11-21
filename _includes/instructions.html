@@ -14,7 +14,7 @@
                        {% for ep in site.data.endpoints%}
                        <div class="instructions-ep-{{ep.os}}-{{ep.connectivity}}">
                            <h4>{{ep.title}}</h4>
-                            <p>{{ep.instructions}}</p>
+                            <p>{{ep.instructions | markdownify}}</p>
                        </div>
                        {% endfor %}
                    </span>
@@ -25,7 +25,7 @@
                         {% for wa in site.data.webapps%}
                         <div class="instructions-wa-{{wa.title}}">
                             <h4>{{wa.title}}</h4>
-                            <p>{{wa.instructions}}</p>
+                            <p>{{wa.instructions | markdownify}}</p>
                         </div>
                        {% endfor %}
                     </span>
