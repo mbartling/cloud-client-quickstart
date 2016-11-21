@@ -370,6 +370,16 @@ section h3.section-subheading {
     z-index: 0;
 }
 
+#setup .setup-item .setup-checkbox{
+    text-align : left;
+    visibility: hidden;
+}
+
+#setup .setup-item:hover .setup-checkbox{
+    text-align : left;
+    visibility: visible;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;

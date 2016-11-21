@@ -17,7 +17,15 @@
                     <p class="text-muted">Select connectivity method.</br>Wi-Fi, Ethernet, Cellular, 6LoPan, ... </br>Compile in security.h file.</p>
                     <span class="setup-checkbox">
                         {% for example in site.data.endpoints %}
-                        <ul><input type="checkbox">{{example.title}}</ul>
+                        <ul><input type="checkbox" 
+                        {% if example.available==false%}
+                            disabled>
+                            {{example.title}} (coming soon)
+                        
+                        {% else %}
+                            >{{example.title}}
+                        {% endif%}
+                        </ul>
                         {% endfor %}
                     </span>
                 </div>
@@ -38,7 +46,15 @@
                     <p class="text-muted">Select web app backend. </br>IBM Bluemix, Amazon, Microsoft, Heroku... </br>Add API Key to enable access.</p>
                     <span class="setup-checkbox">
                         {% for app in site.data.webapps %}
-                        <ul><input type="checkbox">{{app.title}}</ul>
+
+                        <ul><input type="checkbox"
+                        {% if app.available==false %}
+                            disabled>
+                            {{app.title}} (coming soon)
+                        {% else %}
+                            >{{app.title}}
+                        {% endif%}
+                        </ul>
                         {% endfor %}
                     </span>
                 </div>

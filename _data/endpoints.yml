@@ -6,22 +6,25 @@
   os: mbed OS
   available: true
   description: quickstart using ethernet on mbed OS
+  instructions: TODO
 
 - mbed OS - Wifi:
-  title: Wi-Fi
+  title: mbed OS - Wi-Fi
   url: https://github.com/ARMmbed/mbed-os-example-client
   connectivity: Wi-Fi
   os: mbed OS
   available: true
   description: quickstart using wifi on mbed OS
+  instructions: TODO
 
 - mbed OS - Cellular:
-  title: Cellular
+  title: mbed OS - Cellular
   url: false
   connectivity: cellular
   os: mbed OS
   available: false
   description: quickstart using cellular on mbed OS
+  instructions: TODO
 
 - FreeRTOS - Ethernet:
   title: FreeRTOS - Ethernet
@@ -30,3 +33,4 @@
   os: FreeRTOS
   available: false
   description: quickstart using ethernet on FreeRTOS
+  instructions: TODO
