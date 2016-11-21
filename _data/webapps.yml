@@ -1,6 +1,6 @@
 
 - IBM-Bluemix:
-  title: IBM Bluemix
+  title: IBM-Bluemix
   url: https://www.ibm.com/cloud-computing/bluemix/
   id: 3
   available: false
@@ -14,6 +14,7 @@
   id: 1
   available: true
   logo: https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg
+  instructions: "Clone repo, add Access key to app.js, run app with `node app.js`"
   description: nodeJS webapp that can be run locally or deployed to the cloud of your choice.
 
 - Python:
@@ -22,6 +23,7 @@
   id: 1
   available: true
   logo: https://www.python.org/static/opengraph-icon-200x200.png
+  instructions: "git clone repo, add your Access Key to app.py, install requirements by running `pip install -r requirements.txt`, run the app by running `python app.py`" 
   description: python webapp that can be run locally on your machine or deployed to the cloud of your choice.
 
 - Heroku:
@@ -30,4 +32,4 @@
   url: '[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/armmbed/mbed-connector-api-node-quickstart/tree/heroku)'
   instructions: Deploy the app to heroku, then add an environment varialbe called `ACCESS_KEY` with the value of your [API Key](https://connector.mbed.com/#accesskeys)
   available: true
-  description: nodeJS webapp that can be run locally on your machine.
+  description: "nodeJS webapp that can be deployed to heroku."

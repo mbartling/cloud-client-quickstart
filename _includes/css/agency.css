@@ -380,6 +380,22 @@ section h3.section-subheading {
     visibility: visible;
 }
 
+#instructions .instructions-item{
+    text-align: left;
+}
+
+{% for example in site.data.endpoints %}
+#instructions .instructions-ep-{{example.os}}-{{example.connectivity}}{
+    display:none;
+}
+{% endfor %}
+
+{% for webapp in site.data.webapps %}
+#instructions .instructions-wa-{{webapp.title}}{
+    display:none;
+}
+{% endfor %}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
