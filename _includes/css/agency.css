@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -372,12 +372,14 @@ section h3.section-subheading {
 
 #setup .setup-item .setup-checkbox{
     text-align : left;
-    visibility: hidden;
 }
 
 #setup .setup-item:hover .setup-checkbox{
     text-align : left;
-    visibility: visible;
+}
+
+#instructions{
+    display:none;
 }
 
 #instructions .instructions-item{

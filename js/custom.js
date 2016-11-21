@@ -4,11 +4,11 @@
 {% for example in site.data.endpoints %}
 $('#setup-checkbox-{{example.os}}-{{example.connectivity}}').click(function(){
 	if ($(this).is(':checked')){
-		$('#instructions').css('display','inline');
-		$('.instructions-ep-{{example.os}}-{{example.connectivity}}').css('display','inline');
+		$('#instructions').fadeIn();
+		$('.instructions-ep-{{example.os}}-{{example.connectivity}}').fadeIn();
 	}
 	else {
-		$('.instructions-ep-{{example.os}}-{{example.connectivity}}').css('display','none');	
+		$('.instructions-ep-{{example.os}}-{{example.connectivity}}').fadeOut();	
 	}
 })
 {% endfor %}
@@ -17,11 +17,11 @@ $('#setup-checkbox-{{example.os}}-{{example.connectivity}}').click(function(){
 {% for webapp in site.data.webapps %}
 $('#setup-checkbox-{{webapp.title}}').click(function(){
 	if ($(this).is(':checked')){
-		$('#instructions').css('display','inline');
-		$('.instructions-wa-{{webapp.title}}').css('display','inline');
+		$('#instructions').fadeIn();
+		$('.instructions-wa-{{webapp.title}}').fadeIn();
 	}
 	else {
-		$('.instructions-wa-{{webapp.title}}').css('display','none');	
+		$('.instructions-wa-{{webapp.title}}').fadeOut();	
 	}
 })
 {% endfor %}

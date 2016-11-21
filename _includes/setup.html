@@ -14,7 +14,7 @@
                         <i class="fa fa-microchip fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">mbed Client</h4>
-                    <p class="text-muted">Select connectivity method.</br>Wi-Fi, Ethernet, Cellular, 6LoPan, ... </br>Compile in security.h file.</p>
+                    <p class="text-muted">Select connectivity method.</br>Compile in security.h file.</p>
                     <span class="setup-checkbox">
                         {% for example in site.data.endpoints %}
                         <ul><input type="checkbox" id="setup-checkbox-{{example.os}}-{{example.connectivity}}" 
@@ -43,7 +43,7 @@
                         <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Your App</h4>
-                    <p class="text-muted">Select web app backend. </br>IBM Bluemix, Amazon, Microsoft, Heroku... </br>Add API Key to enable access.</p>
+                    <p class="text-muted">Select web app backend. </br>Add API Key to enable access.</p>
                     <span class="setup-checkbox">
                         {% for app in site.data.webapps %}
                         <ul><input type="checkbox" id="setup-checkbox-{{app.title}}"
@@ -57,6 +57,7 @@
                         {% endfor %}
                     </span>
                 </div>
+                <a href="#instructions" class="page-scroll btn btn-xl">Run it!</a>
             </div>
         </div>
     </section>

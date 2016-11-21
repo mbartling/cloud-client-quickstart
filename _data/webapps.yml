@@ -1,17 +1,6 @@
-
-- IBM-Bluemix:
-  title: IBM-Bluemix
-  url: https://www.ibm.com/cloud-computing/bluemix/
-  id: 3
-  available: false
-  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/IBM_Bluemix_logo.svg/1036px-IBM_Bluemix_logo.svg.png
-  description: Coming Soon
-  instructions: TBD
-
 - nodeJS:
   title: nodeJS
   url: https://github.com/ARMmbed/mbed-connector-api-node-quickstart
-  id: 1
   available: true
   logo: https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg
   instructions: "Clone repo, add Access key to app.js, run app with `node app.js`"
@@ -20,7 +9,6 @@
 - Python:
   title: Python
   url: https://github.com/ARMmbed/mbed-connector-api-python-quickstart
-  id: 1
   available: true
   logo: https://www.python.org/static/opengraph-icon-200x200.png
   instructions: "git clone repo, add your Access Key to app.py, install requirements by running `pip install -r requirements.txt`, run the app by running `python app.py`" 
@@ -33,3 +21,27 @@
   instructions: Deploy the app to heroku, then add an environment varialbe called `ACCESS_KEY` with the value of your [API Key](https://connector.mbed.com/#accesskeys)
   available: true
   description: "nodeJS webapp that can be deployed to heroku."
+
+- IBM-Bluemix:
+  title: IBM-Bluemix
+  url: https://www.ibm.com/cloud-computing/bluemix/
+  available: false
+  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/IBM_Bluemix_logo.svg/1036px-IBM_Bluemix_logo.svg.png
+  description: Coming Soon
+  instructions: TBD
+
+- Amazon:
+  title: Amazon
+  url: tbd
+  available: false
+  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png
+  description: Coming Soon
+  instructions: TBD
+
+- Microsoft:
+  title: Microsoft
+  url: tbd
+  available: false
+  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/2000px-Microsoft_Azure_Logo.svg.png
+  description: Coming Soon
+  instructions: TBD
