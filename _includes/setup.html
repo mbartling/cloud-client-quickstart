@@ -17,7 +17,7 @@
                     <p class="text-muted">Select connectivity method.</br>Compile in security.h file.</p>
                     <span class="setup-checkbox">
                         {% for example in site.data.endpoints %}
-                        <ul><input type="checkbox" id="setup-checkbox-{{example.os}}-{{example.connectivity}}" 
+                        <ul><label><input type="checkbox" id="setup-checkbox-{{example.os}}-{{example.connectivity}}" 
                         {% if example.available==false%}
                             disabled>
                             {{example.title}} (coming soon)
@@ -25,6 +25,7 @@
                         {% else %}
                             >{{example.title}}
                         {% endif%}
+                        </label>
                         </ul>
                         {% endfor %}
                     </span>
@@ -46,13 +47,14 @@
                     <p class="text-muted">Select web app backend. </br>Add API Key to enable access.</p>
                     <span class="setup-checkbox">
                         {% for app in site.data.webapps %}
-                        <ul><input type="checkbox" id="setup-checkbox-{{app.title}}"
+                        <ul><label><input type="checkbox" id="setup-checkbox-{{app.title}}"
                         {% if app.available==false %}
                             disabled>
                             {{app.title}} (coming soon)
                         {% else %}
                             >{{app.title}}
                         {% endif%}
+                        </label>
                         </ul>
                         {% endfor %}
                     </span>
