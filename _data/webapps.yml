@@ -1,3 +1,14 @@
+- Heroku:
+  title: Heroku
+  logo: 'https://upload.wikimedia.org/wikipedia/en/archive/a/a9/20161027174404%21Heroku_logo.png'
+  url: '[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/armmbed/mbed-connector-api-node-quickstart/tree/heroku)'
+  available: true
+  description: "nodeJS webapp that can be deployed to heroku."
+  instructions: |
+    1. Deploy the app to heroku [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/armmbed/mbed-connector-api-node-quickstart/tree/heroku) 
+    1. Add an environment varialbe called `ACCESS_KEY` with the value of your [API Key](https://connector.mbed.com/#accesskeys)
+    1. Go to web address provided by heroku (something like yourappname.herokuapp.com)
+
 - nodeJS:
   title: nodeJS
   url: https://github.com/ARMmbed/mbed-connector-api-node-quickstart
@@ -22,17 +33,6 @@
     1. Install requirements by running `pip install -r requirements.txt`
     1. Run the app `python app.py`
     1. Open up a web browser to the address printed on the terminal (usually [localhost:8080](http://127.0.0.1:8080))
-
-- Heroku:
-  title: Heroku
-  logo: 'https://upload.wikimedia.org/wikipedia/en/archive/a/a9/20161027174404%21Heroku_logo.png'
-  url: '[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/armmbed/mbed-connector-api-node-quickstart/tree/heroku)'
-  available: true
-  description: "nodeJS webapp that can be deployed to heroku."
-  instructions: |
-    1. Deploy the app to heroku [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/armmbed/mbed-connector-api-node-quickstart/tree/heroku) 
-    1. Add an environment varialbe called `ACCESS_KEY` with the value of your [API Key](https://connector.mbed.com/#accesskeys)
-    1. Go to web address provided by heroku (something like yourappname.herokuapp.com)
 
 - IBM-Bluemix:
   title: IBM-Bluemix
