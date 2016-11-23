@@ -1,15 +1,13 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Github Build Siren
+subtitle: Alarm for broken builds
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: github-siren.gif
+thumbnail: github-siren.gif
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+url: https://github.com/BlackstoneEngineering/connector-example-python-github-build-failure
+description: |
+    Use the github API to check the status of a project build with Circle CI or Travis CI. When the build breaks an alarm is set off in the real world to notify you of the problem. 
 
 ---

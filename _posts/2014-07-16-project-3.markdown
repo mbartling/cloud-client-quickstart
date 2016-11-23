@@ -1,15 +1,14 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Minecraft
+subtitle: Mincraft from the real world
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+thumbnail: minecraft-thumbnail.gif
+video: |
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mBdBw8urAKQ"></iframe>
+    </div>
+url: https://github.com/BlackstoneEngineering/connector-minecraft-demo
+description: Extend the quickstart program by running a python script on the minecraft server in place of the webapp. In this demo the button press will trigger diamond ore to drop in front of the player. 
 
 ---
