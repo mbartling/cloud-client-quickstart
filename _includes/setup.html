@@ -15,9 +15,10 @@
                     </span>
                     <h4 class="service-heading">mbed Client</h4>
                     <p class="text-muted">Select connectivity method.</br>Compile in security.h file.</p>
+                    <div class="setup-checkbox-outer">
                     <span class="setup-checkbox">
                         {% for example in site.data.endpoints %}
-                        <ul><label><input type="checkbox" id="setup-checkbox-{{example.os}}-{{example.connectivity}}" 
+                        <ul><label class="setup-checkbox-label"><input type="checkbox" id="setup-checkbox-{{example.os}}-{{example.connectivity}}" 
                         {% if example.available==false%}
                             disabled>
                             {{example.title}} (coming soon)
@@ -29,6 +30,7 @@
                         </ul>
                         {% endfor %}
                     </span>
+                    </div>
                 </div>
                 <div class="col-md-4 setup-item">
                     <span class="fa-stack fa-4x setup-item-icon">
@@ -45,6 +47,7 @@
                     </span>
                     <h4 class="service-heading">Your App</h4>
                     <p class="text-muted">Select web app backend. </br>Add API Key to enable access.</p>
+                    <div class="setup-checkbox-outer">
                     <span class="setup-checkbox">
                         {% for app in site.data.webapps %}
                         <ul><label><input type="checkbox" id="setup-checkbox-{{app.title}}"
@@ -58,6 +61,7 @@
                         </ul>
                         {% endfor %}
                     </span>
+                    </div>
                 </div>
                 <div class="setup-button">
                     <a href="#instructions" class="page-scroll btn btn-xl">Run it!</a>

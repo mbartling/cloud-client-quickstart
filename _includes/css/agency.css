@@ -370,12 +370,17 @@ section h3.section-subheading {
     z-index: 0;
 }
 
-#setup .setup-item .setup-checkbox{
-    text-align : left;
+#setup .setup-item .setup-checkbox-outer{
+    padding-left:10%;
 }
 
-#setup .setup-item:hover .setup-checkbox{
+#setup .setup-item .setup-checkbox{
     text-align : left;
+    padding-left:10%;
+}
+
+#setup .setup-item .setup-checkbox label input{
+    margin-right: 10px;
 }
 
 #setup .setup-button .page-scroll{
