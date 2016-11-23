@@ -6,7 +6,7 @@ modal-id: 2
 date: 2014-07-17
 img: light-control.gif
 thumbnail: light-control.gif
-url: https://github.com/BlackstoneEngineering/light-control-mbed-client
+code: https://www.github.com/BlackstoneEngineering/light-control-mbed-client
 description: |
     Extend the quickstart demo by controlling a relay instead of an LED. Add sensor that reports energy used by light switch in near real time! 
 

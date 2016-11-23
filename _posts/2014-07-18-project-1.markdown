@@ -6,7 +6,7 @@ modal-id: 1
 img: github-siren.gif
 thumbnail: github-siren.gif
 alt: image-alt
-url: https://github.com/BlackstoneEngineering/connector-example-python-github-build-failure
+code: "https://www.github.com/BlackstoneEngineering/connector-example-python-github-build-failure"
 description: |
     Use the github API to check the status of a project build with Circle CI or Travis CI. When the build breaks an alarm is set off in the real world to notify you of the problem. 
 

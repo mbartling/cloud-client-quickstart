@@ -8,7 +8,7 @@ video: |
     <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mBdBw8urAKQ"></iframe>
     </div>
-url: https://github.com/BlackstoneEngineering/connector-minecraft-demo
+code: "https://www.github.com/BlackstoneEngineering/connector-minecraft-demo"
 description: Extend the quickstart program by running a python script on the minecraft server in place of the webapp. In this demo the button press will trigger diamond ore to drop in front of the player. 
 
 ---
