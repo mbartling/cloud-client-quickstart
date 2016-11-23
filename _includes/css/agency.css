@@ -378,6 +378,10 @@ section h3.section-subheading {
     text-align : left;
 }
 
+#setup .setup-button .page-scroll{
+    opacity:0;
+}
+
 #instructions{
     display:none;
 }
