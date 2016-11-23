@@ -8,19 +8,19 @@
   description: quickstart using ethernet on mbed OS
   instructions: | 
     ##### Option 1: Online Compile
-    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/BlackstoneEngineering/mbed-os-example-client)
-    1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials)
-    1. Compile, download, then drag and drop code to your mbed enabled board.
-    1. **[Optional Debug]** hook up a serial terminal to the board for debug messages. You can verify connection to mbed Connector by checking the [API Console](https://connector.mbed.com/#console).
+    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/BlackstoneEngineering/mbed-os-example-client).
+    1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials).
+    1. Compile, download and then drag and drop code to your mbed Enabled board.
+    1. **[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Connector by checking the [API Console](https://connector.mbed.com/#console).
 
     ##### Option 2 : Offline Compile
     1. Clone project to your computer 
-        `mbed import https://github.com/blackstoneengineering/mbed-os-example-client/tree/quickstart-ethernet`
-    1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials)
-    1. Compile your code using `mbed compile` (for more info on mbed-cli see [here](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf))
-    1. Drag and drop compiled binary (.bin file) from `BUILD` directory to the board
+        `mbed import https://github.com/blackstoneengineering/mbed-os-example-client/tree/quickstart-ethernet`.
+    1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials).
+    1. Compile your code using `mbed compile` (for more info on mbed-cli see [here](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
+    1. Drag and drop compiled binary (.bin file) from `BUILD` directory to the board.
     1. Wait for the blinking light to turn solid. This means the connection is complete.
-    1. **[Optional Debug]** hook up a serial terminal to the board for debug messages. You can verify connection to mbed Connector by checking the [API Console](https://connector.mbed.com/#console).
+    1. **[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Connector by checking the [API Console](https://connector.mbed.com/#console).
 
 - mbed OS - Wifi:
   title: mbed OS - Wi-Fi

@@ -1,6 +1,6 @@
 ---
 title: Github Build Siren
-subtitle: Alarm for broken builds
+subtitle: Alarm for broken builds.
 layout: default
 modal-id: 1
 img: github-siren.gif

@@ -1,6 +1,6 @@
 ---
 title: Light Switch
-subtitle: Control wall switch, measure energy usage
+subtitle: Control wall switch. Measure energy usage.
 layout: default
 modal-id: 2
 date: 2014-07-17

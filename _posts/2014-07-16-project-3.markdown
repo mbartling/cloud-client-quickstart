@@ -1,6 +1,6 @@
 ---
 title: Minecraft
-subtitle: Mincraft from the real world
+subtitle: Minecraft from the real world.
 layout: default
 modal-id: 3
 thumbnail: minecraft-thumbnail.gif

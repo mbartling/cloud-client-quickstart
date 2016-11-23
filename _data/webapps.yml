@@ -3,11 +3,11 @@
   logo: 'https://upload.wikimedia.org/wikipedia/en/archive/a/a9/20161027174404%21Heroku_logo.png'
   url: '[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/armmbed/mbed-connector-api-node-quickstart/tree/heroku)'
   available: true
-  description: "nodeJS webapp that can be deployed to heroku."
+  description: "Node.js webapp that can be deployed to Heroku."
   instructions: |
-    1. Deploy the app to heroku [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/armmbed/mbed-connector-api-node-quickstart/tree/heroku) 
-    1. Add an environment varialbe called `ACCESS_KEY` with the value of your [API Key](https://connector.mbed.com/#accesskeys)
-    1. Go to web address provided by heroku (something like yourappname.herokuapp.com)
+    1. Deploy the app to Heroku by clicking purple button. -> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/armmbed/mbed-connector-api-node-quickstart/tree/heroku) 
+    1. Add an environment varialbe called `ACCESS_KEY` with the value of your [API key](https://connector.mbed.com/#accesskeys).
+    1. Go to web address Heroku provides (something like yourappname.herokuapp.com).
 
 - nodeJS:
   title: nodeJS
@@ -16,10 +16,10 @@
   logo: https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg
   description: nodeJS webapp that can be run locally or deployed to the cloud of your choice.
   instructions: | 
-    1. grab the code `git clone https://github.com/ARMmbed/mbed-connector-api-node-quickstart`
-    1. Add your [API Key](https://connector.mbed.com/#accesskeys) to app.js
-    1. Run the app `node app.js` 
-    1. Open up a web browser to the address printed on the terminal (usually [localhost:8080](http://127.0.0.1:8080))
+    1. Grab the code `git clone https://github.com/ARMmbed/mbed-connector-api-node-quickstart`.
+    1. Add your [API key](https://connector.mbed.com/#accesskeys) to app.js.
+    1. Run the app `node app.js` .
+    1. Open a web browser to the address printed on the terminal (usually [localhost:8080](http://127.0.0.1:8080)).
 
 - Python:
   title: Python
@@ -28,11 +28,11 @@
   logo: https://www.python.org/static/opengraph-icon-200x200.png
   description: python webapp that can be run locally on your machine or deployed to the cloud of your choice.
   instructions: | 
-    1. grab the code `git clone https://github.com/ARMmbed/mbed-connector-api-python-quickstart`
-    1. Add your [API Key](https://connector.mbed.com/#accesskeys) to app.py
-    1. Install requirements by running `pip install -r requirements.txt`
-    1. Run the app `python app.py`
-    1. Open up a web browser to the address printed on the terminal (usually [localhost:8080](http://127.0.0.1:8080))
+    1. Grab the code `git clone https://github.com/ARMmbed/mbed-connector-api-python-quickstart`.
+    1. Add your [API key](https://connector.mbed.com/#accesskeys) to app.py.
+    1. Install requirements by running `pip install -r requirements.txt`.
+    1. Run the app `python app.py`.
+    1. Open a web browser to the address printed on the terminal (usually [localhost:8080](http://127.0.0.1:8080)).
 
 - IBM-Bluemix:
   title: IBM-Bluemix
