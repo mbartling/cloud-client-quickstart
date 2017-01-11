@@ -1,21 +1,21 @@
 ---
 - mbed OS - Ethernet:
   title: mbed OS - Ethernet
-  url: https://github.com/blackstoneengineering/mbed-os-example-client/tree/quickstart-ethernet
+  url: https://github.com/mbartling/mbed-os-example-client/tree/client-qs-ethernet
   connectivity: Ethernet
   os: mbedOS
   available: true
   description: quickstart using ethernet on mbed OS
   instructions: | 
     ##### Option 1: Online Compile
-    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/BlackstoneEngineering/mbed-os-example-client).
+    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-os-example-client/tree/client-qs-ethernet).
     1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials).
     1. Compile, download and then drag and drop code to your mbed Enabled board.
     1. **[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Connector by checking the [API Console](https://connector.mbed.com/#console).
 
     ##### Option 2 : Offline Compile
     1. Clone project to your computer 
-        `mbed import https://github.com/blackstoneengineering/mbed-os-example-client/tree/quickstart-ethernet`.
+        `mbed import https://github.com/mbartling/mbed-os-example-client/tree/client-qs-ethernet`.
     1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials).
     1. Compile your code using `mbed compile` (for more info on mbed-cli see [here](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
     1. Drag and drop compiled binary (.bin file) from `BUILD` directory to the board.
@@ -24,12 +24,31 @@
 
 - mbed OS - Wifi:
   title: mbed OS - Wi-Fi
-  url: https://github.com/ARMmbed/mbed-os-example-client
+  url: https://github.com/mbartling/mbed-os-example-client/tree/client-qs-wifi
   connectivity: Wi-Fi
   os: mbedOS
-  available: false
+  available: true 
   description: quickstart using wifi on mbed OS
-  instructions: TODO
+  instructions: | 
+    ##### Option 1: Online Compile
+    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-os-example-client/tree/client-qs-wifi).
+    1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials).
+    1. Change the SSID / PW in mbed_app.json file.
+    1. Compile, download and then drag and drop code to your mbed Enabled board.
+    1. **[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Connector by checking the [API Console](https://connector.mbed.com/#console).
+
+    ##### Option 2 : Offline Compile
+    1. Clone project to your computer 
+        `mbed import https://github.com/mbartling/mbed-os-example-client/tree/client-qs-wifi`.
+    1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials).
+    1. Change the SSID / PW in mbed_app.json file.
+    1. Compile your code using `mbed compile` (for more info on mbed-cli see [here](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
+    1. Drag and drop compiled binary (.bin file) from `BUILD` directory to the board.
+    1. Wait for the blinking light to turn solid. This means the connection is complete.
+    1. **[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Connector by checking the [API Console](https://connector.mbed.com/#console).
+
+    #### Troubleshooting
+    If your board is having trouble connecting to wifi try resetting the system, many embedded wifi peripherals may require multiple connection attempts on their first connection to a new network. 
 
 - mbed OS - Cellular:
   title: mbed OS - Cellular
