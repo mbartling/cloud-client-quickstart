@@ -1,21 +1,21 @@
 ---
 - mbed OS - Ethernet:
   title: mbed OS - Ethernet
-  url: https://github.com/mbartling/mbed-os-example-client/tree/client-qs-ethernet
+  url: https://github.com/mbartling/mbed-cloud-client-example-client/tree/simple-client-qs-ethernet
   connectivity: Ethernet
   os: mbedOS
   available: true
   description: quickstart using ethernet on mbed OS
   instructions: | 
     ##### Option 1: Online Compile
-    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-os-example-client/tree/client-qs-ethernet).
+    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-cloud-client-example-client/#b2a691a).
     1. Add [`security.h` file from the cloud portal](https://portal.mbedcloud.com/developer/certificate).
     1. Compile, download and then drag and drop code to your mbed Enabled board.
     1. **[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Cloud by checking the [API Console](https://portal.mbedcloud.com/devices).
 
     ##### Option 2 : Offline Compile
     1. Clone project to your computer 
-        `mbed import https://github.com/mbartling/mbed-os-example-client/tree/client-qs-ethernet`.
+        `mbed import https://github.com/mbartling/mbed-cloud-client-example-client/#b2a691a`.
     1. Add [`security.h` file from the cloud portal](https://portal.mbedcloud.com/developer/certificate).
     1. Compile your code using `mbed compile` (for more info on mbed-cli see [here](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
     1. Drag and drop compiled binary (.bin file) from `BUILD` directory to the board.
@@ -23,15 +23,15 @@
     1. **[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Cloud by checking the [API Console](https://portal.mbedcloud.com/devices).
 
 - mbed OS - Wifi:
-  title: mbed OS - Wi-Fi (coming soon)
-  url: https://github.com/mbartling/mbed-os-example-client/tree/client-qs-wifi
+  title: mbed OS - Wi-Fi ESP8266 (coming soon)
+  url: https://github.com/mbartling/mbed-cloud-client-example-client/tree/simple-client-qs-wifi
   connectivity: Wi-Fi
   os: mbedOS
   available: true 
   description: quickstart using wifi on mbed OS
   instructions: | 
     ##### Option 1: Online Compile
-    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-os-example-client/tree/client-qs-wifi).
+    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-cloud-client-example-client/#9edc9bd)
     1. Add [`security.h` file from the cloud portal](https://portal.mbedcloud.com/developer/certificate).
     1. Change the SSID / PW in mbed_app.json file.
     1. Compile, download and then drag and drop code to your mbed Enabled board.
@@ -39,7 +39,7 @@
 
     ##### Option 2 : Offline Compile
     1. Clone project to your computer 
-        `mbed import https://github.com/mbartling/mbed-os-example-client/tree/client-qs-wifi`.
+        `mbed import https://github.com/mbartling/mbed-cloud-client-example-client/#9edc9bd`.
     1. Add [`security.h` file from the cloud portal](https://portal.mbedcloud.com/developer/certificate).
     1. Change the SSID / PW in mbed_app.json file.
     1. Compile your code using `mbed compile` (for more info on mbed-cli see [here](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
