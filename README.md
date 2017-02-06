@@ -1,6 +1,8 @@
 Agency Jekyll theme
 ====================
 
+Michael Bartling
+
 Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
 
 # How to use
