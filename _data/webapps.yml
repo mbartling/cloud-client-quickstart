@@ -18,6 +18,7 @@
   instructions: | 
     1. Grab the code `git clone https://github.com/mbartling/cloud-client-qs-node`.
     1. Add your [API key](https://portal.mbedcloud.com/access/keys) to app.js or the `.env` file.
+    1. install the app dependencies `npm install` .
     1. Run the app `node app.js` .
     1. Open a web browser to the address printed on the terminal (usually [localhost:8080](http://127.0.0.1:8080)).
 
