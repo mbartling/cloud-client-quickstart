@@ -23,11 +23,11 @@
     1. **[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Cloud by checking the [API Console](https://portal.mbedcloud.com/devices).
 
 - mbed OS - Wifi:
-  title: mbed OS - Wi-Fi ESP8266 (coming soon)
+  title: mbed OS - Wi-Fi ESP8266
   url: https://github.com/mbartling/mbed-cloud-client-example/tree/simple-client-qs-wifi
   connectivity: Wi-Fi
   os: mbedOS
-  available: true 
+  available: false
   description: quickstart using wifi on mbed OS
   instructions: | 
     ##### Option 1: Online Compile
