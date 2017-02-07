@@ -25,7 +25,7 @@
 - Python:
   title: Python
   url: https://github.com/mbartling/cloud-client-qs-python
-  available: true
+  available: false
   logo: https://www.python.org/static/opengraph-icon-200x200.png
   description: python webapp that can be run locally on your machine or deployed to the cloud of your choice.
   instructions: | 
