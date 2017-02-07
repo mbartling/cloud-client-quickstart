@@ -8,14 +8,14 @@
   description: quickstart using ethernet on mbed OS
   instructions: | 
     ##### Option 1: Online Compile
-    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-os-example-client/tree/client-qs-ethernet).
+    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-os-example-client/#b18623e).
     1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials).
     1. Compile, download and then drag and drop code to your mbed Enabled board.
     1. **[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Connector by checking the [API Console](https://connector.mbed.com/#console).
 
     ##### Option 2 : Offline Compile
     1. Clone project to your computer 
-        `mbed import https://github.com/mbartling/mbed-os-example-client/tree/client-qs-ethernet`.
+        `mbed import https://github.com/mbartling/mbed-os-example-client/#b18623e`.
     1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials).
     1. Compile your code using `mbed compile` (for more info on mbed-cli see [here](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
     1. Drag and drop compiled binary (.bin file) from `BUILD` directory to the board.
@@ -31,7 +31,7 @@
   description: quickstart using wifi on mbed OS
   instructions: | 
     ##### Option 1: Online Compile
-    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-os-example-client/tree/client-qs-wifi).
+    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-os-example-client/#f2674b2).
     1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials).
     1. Change the SSID / PW in mbed_app.json file.
     1. Compile, download and then drag and drop code to your mbed Enabled board.
@@ -39,7 +39,7 @@
 
     ##### Option 2 : Offline Compile
     1. Clone project to your computer 
-        `mbed import https://github.com/mbartling/mbed-os-example-client/tree/client-qs-wifi`.
+        `mbed import https://github.com/mbartling/mbed-os-example-client/#f2674b2`.
     1. Add [`security.h` file from connector](https://connector.mbed.com/#credentials).
     1. Change the SSID / PW in mbed_app.json file.
     1. Compile your code using `mbed compile` (for more info on mbed-cli see [here](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
