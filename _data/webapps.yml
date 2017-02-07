@@ -6,7 +6,7 @@
   description: "Node.js webapp that can be deployed to Heroku."
   instructions: |
     1. Deploy the app to Heroku by clicking purple button. -> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/mbartling/cloud-client-qs-heroku)
-    1. Add an environment varialbe called `ACCESS_KEY` with the value of your [API key](https://portal.mbedcloud.com/access/keys).
+    1. Add an environment variable called `ACCESS_KEY` with the value of your [API key](https://portal.mbedcloud.com/access/keys).
     1. Go to web address Heroku provides (something like yourappname.herokuapp.com).
 
 - nodeJS:
