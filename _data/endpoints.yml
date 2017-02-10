@@ -8,14 +8,14 @@
   description: quickstart using ethernet on mbed OS
   instructions: | 
     ##### Option 1: Online Compile
-    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-cloud-client-example/#0676151).
+    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-cloud-client-example/#c13abb1).
     1. Add [`identity_dev_security.c` file from the cloud portal](https://portal.mbedcloud.com/developer/certificate).
     1. Compile, download and then drag and drop code to your mbed Enabled board.
     1. **[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Cloud by checking the [API Console](https://portal.mbedcloud.com/devices).
 
     ##### Option 2 : Offline Compile
     1. Clone project to your computer 
-        `mbed import https://github.com/mbartling/mbed-cloud-client-example/#0676151`.
+        `mbed import https://github.com/mbartling/mbed-cloud-client-example/#c13abb1`.
     1. Add [`identity_dev_security.c` file from the cloud portal](https://portal.mbedcloud.com/developer/certificate).
     1. Compile your code using `mbed compile` (for more info on mbed-cli see [here](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
     1. Drag and drop compiled binary (.bin file) from `BUILD` directory to the board.
