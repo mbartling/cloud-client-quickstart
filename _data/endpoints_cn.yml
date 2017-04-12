@@ -52,20 +52,20 @@
     如果你的设备无法成功连接到无线网络, 请尝试重启设备系统. 特别针对加入一个从未连接过的无线网络, 很多嵌入式的无线接入模组都需要很多次的尝试,方能成功接入.If your board is having trouble connecting to wifi try resetting the system, many embedded wifi peripherals may require multiple connection attempts on their first connection to a new network. 
 
 - mbed OS - Cellular:
-  title: mbed OS - Cellular
+  title: mbed OS - 蜂窝网
   url: false
   connectivity: cellular
   os: mbedOS
   available: false
-  description: quickstart using cellular on mbed OS
+  description: 使用基于mbed OS的蜂窝网络连接方式快速开始
   instructions: TODO
 
 - FreeRTOS - Ethernet:
-  title: FreeRTOS - Ethernet
+  title: FreeRTOS - 以太网
   url: false
   connectivity: Ethernet
   os: FreeRTOS
   available: false
-  description: quickstart using ethernet on FreeRTOS
+  description: 使用基于FreeRTOS的蜂窝网络连接方式快速开始
   instructions: TODO
 ---
