@@ -6,22 +6,22 @@
   connectivity: 以太网
   os: mbedOS
   available: true
-  description: 使用基于mbed OS的以太网连接方式快速开始quickstart using ethernet on mbed OS
+  description: 使用基于mbed OS的以太网连接方式快速开始
   instructions: | 
-    ##### 选项 1: 在线编译Online Compile
-    1. [将mbed项目导入你的mbed在线编译工作区Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-cloud-client-example/#56c6d51).
-    1. 从mbed云端门户网站获取identity_dev_security.c文件.Add [`identity_dev_security.c` file from the cloud portal](https://portal.mbedcloud.com/developer/certificate).
-    1. 编译代码, 下载镜像文件, 然后将二进制.bin镜像文件拖拽至mbed使能的目标设备.Compile, download and then drag and drop code to your mbed Enabled board.
-    1. **[可选择调试]** 使用串口终端程序监控设备端的调试输出信息(默认波特率9600). 可以通过mbed云端门户网站确认设备已经成功连接到云端并进行其他操作.Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Cloud by checking the [API Console](https://portal.mbedcloud.com/devices).
+    ##### 选项 1: 在线编译
+    1. [将mbed项目导入你的mbed在线编译工作区](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-cloud-client-example/#56c6d51).
+    1. 从mbed云端门户网站获取`identity_dev_security.c`文件,[点击这里](https://portal.mbedcloud.com/developer/certificate).
+    1. 编译代码, 下载镜像文件, 然后将二进制.bin镜像文件拖拽至mbed使能的目标设备.
+    1. **[可选择调试]** 使用串口终端程序监控设备端的调试输出信息(默认波特率9600). 也可以通过[mbed云端门户网站设备管理页](https://portal.mbedcloud.com/devices)确认设备已经成功连接到云端并进行其他操作.
 
-    ##### 选项 2: 离线编译Offline Compile
-    1. 将mbed项目克隆到本地计算机Clone project to your computer 
+    ##### 选项 2: 离线编译
+    1. 将mbed项目克隆到本地计算机
         `mbed import https://github.com/mbartling/mbed-cloud-client-example/#56c6d51`.
-    1. 从mbed云端门户网站获取identity_dev_security.c文件.Add [`identity_dev_security.c` file from the cloud portal](https://portal.mbedcloud.com/developer/certificate).
+    1. 从mbed云端门户网站获取`identity_dev_security.c`文件,[点击这里](https://portal.mbedcloud.com/developer/certificate).
     1. 使用`mbed compile`命令编译项目工程 (更多mbed-cli信息,请参阅[这里](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
     1. 将编译完成的二进制文件(.bin文件)从`BUILD`目录拖拽到mbed设备.
-    1. 等待烧录完成然后重启设备. LED灯会持续闪烁, 直到成功连接到mbed云端. Wait for the blinking light to turn solid. This means the connection is complete.
-    1. **[可选择调试]** 使用串口终端程序监控设备端的调试输出信息(默认波特率9600). 可以通过mbed云端门户网站确认设备已经成功连接到云端并进行其他操作.Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Cloud by checking the [API Console](https://portal.mbedcloud.com/devices).
+    1. 等待烧录完成然后重启设备. LED灯会持续闪烁, 直到设备成功连接到mbed云端.
+    1. **[可选择调试]** 使用串口终端程序监控设备端的调试输出信息(默认波特率9600). 可以通过[mbed云端门户网站设备管理页](https://portal.mbedcloud.com/devices)确认设备已经成功连接到云端并进行其他操作.
 
 - mbed OS - Wifi:
   title: mbed OS - 无线网络 ESP8266
@@ -31,25 +31,25 @@
   available: false
   description: 使用基于mbed OS的无线网络连接方式快速开始
   instructions: | 
-    ##### 选项 1: 在线编译Online Compile
+    ##### 选项 1: 在线编译
     1. [将mbed项目导入你的mbed在线编译工作区](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-cloud-client-example/#9edc9bd)
-    1. 从mbed云端门户网站获取identity_dev_security.c文件 Add [`identity_dev_security.c` file from the cloud portal](https://portal.mbedcloud.com/developer/certificate).
-    1. 根据你本地的网络信息,修改mbed_app.json文件中的SSID/PW 等值.Change the SSID / PW in mbed_app.json file.
+    1. 从mbed云端门户网站获取[`identity_dev_security.c`](https://portal.mbedcloud.com/developer/certificate)文件.
+    1. 根据你本地的网络信息,修改mbed_app.json文件中的SSID/PW 等值.
     1. 编译代码, 下载镜像文件, 然后将二进制.bin镜像文件拖拽至mbed使能的目标设备.
-    1. **[可选择调试]** 使用串口终端程序监控设备端的调试输出信息(默认波特率9600). 可以通过mbed云端门户网站确认设备已经成功连接到云端并进行其他操作**[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Cloud by checking the [API Console](https://portal.mbedcloud.com/devices).
+    1. **[可选择调试]** 使用串口终端程序监控设备端的调试输出信息(默认波特率9600). 可以通过[mbed云端门户网站设备页](https://portal.mbedcloud.com/devices)确认设备已经成功连接到云端并进行其他操作.
 
-    ##### 选项 2: 离线编译Offline Compile
-    1. 将mbed项目克隆到本地计算机Clone project to your computer 
+    ##### 选项 2: 离线编译
+    1. 将mbed项目克隆到本地计算机
         `mbed import https://github.com/mbartling/mbed-cloud-client-example/#9edc9bd`.
-    1. 从mbed云端门户网站获取identity_dev_security.c文件.Add [`identity_dev_security.c` file from the cloud portal](https://portal.mbedcloud.com/developer/certificate).
-    1. 根据你本地的网络信息,修改mbed_app.json文件中的SSID/PW 等值.Change the SSID / PW in mbed_app.json file.
-    1. 使用`mbed compile`命令编译项目工程 (更多mbed-cli信息,请参阅[这里]Compile your code using `mbed compile` (for more info on mbed-cli see [here](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
-    1. 将编译完成的二进制文件(.bin文件)从`BUILD`目录拖拽到mbed设备.Drag and drop compiled binary (.bin file) from `BUILD` directory to the board.
-    1. 等待烧录完成然后重启设备. LED灯会持续闪烁, 直到成功连接到mbed云端.Wait for the blinking light to turn solid. This means the connection is complete.
-    1. **[可选择调试]** 使用串口终端程序监控设备端的调试输出信息(默认波特率9600). 可以通过mbed云端门户网站确认设备已经成功连接到云端并进行其他操作**[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Cloud by checking the [API Console](https://portal.mbedcloud.com/devices).
+    1. 从mbed云端门户网站获取[`identity_dev_security.c`](https://portal.mbedcloud.com/developer/certificate)文件.
+    1. 根据你本地的网络信息,修改mbed_app.json文件中的SSID/PW 等值.
+    1. 使用`mbed compile`命令编译项目工程 (更多mbed-cli信息,请参阅[这里](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
+    1. 将编译完成的二进制文件(.bin文件)从`BUILD`目录拖拽到mbed设备.
+    1. 等待烧录完成然后重启设备. LED灯会持续闪烁, 直到成功连接到mbed云端.
+    1. **[可选择调试]** 使用串口终端程序监控设备端的调试输出信息(默认波特率9600). 可以通过mbed云端门户网站确认设备已经成功连接到云端并进行其他操作.
 
-    #### 故障排除Troubleshooting
-    如果你的设备无法成功连接到无线网络, 请尝试重启设备系统. 特别针对加入一个从未连接过的无线网络, 很多嵌入式的无线接入模组都需要很多次的尝试,方能成功接入.If your board is having trouble connecting to wifi try resetting the system, many embedded wifi peripherals may require multiple connection attempts on their first connection to a new network. 
+    #### 故障排除
+    如果你的设备无法成功连接到无线网络, 请尝试重启设备系统. 特别针对加入一个从未连接过的无线网络, 很多嵌入式的无线接入模组都需要很多次的尝试,方能成功接入.
 
 - mbed OS - Cellular:
   title: mbed OS - 蜂窝网
