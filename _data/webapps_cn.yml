@@ -1,0 +1,60 @@
+- Heroku:
+  title: Heroku
+  logo: 'https://upload.wikimedia.org/wikipedia/en/archive/a/a9/20161027174404%21Heroku_logo.png'
+  url: '[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/mbartling/cloud-client-qs-heroku.git)'
+  available: true
+  description: "基于Node.js的web应用, 可以部署在Heroku云服务."
+  instructions: |
+    1. 点击紫色按钮 将应用部署到Heroku.-> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/mbartling/cloud-client-qs-heroku)
+    1. 在Heroku应用设置中添加一个叫做`ACCESS_KEY`的环境变量 并使用[API Key](https://portal.mbedcloud.com/access/keys)的内容填充.
+    1. 打开Heroku应用提供的网页地址 类似于(yourappname.herokuapp.com).
+
+- nodeJS:
+  title: nodeJS
+  url: https://github.com/mbartling/cloud-client-qs-node
+  available: true
+  logo: https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg
+  description: "基于nodeJS的web应用,可以运行在本地机器, 也可以部署到你喜欢的其他云服务上."
+  instructions: | 
+    1. 从github抓取代码`git clone https://github.com/mbartling/cloud-client-qs-node`.
+    1. 将你自己的[API key](https://portal.mbedcloud.com/access/keys)添加到`app.js`或者是`.env`文件.
+    1. 使用`npm install'命令安装web应用需要的相关依赖项.
+    1. 运行应用`node app.js`.
+    1. 使用web浏览器打开上一步中应用终端输出的地址(通常会是[localhost:8080](http://127.0.0.1:8080)).
+
+- Python:
+  title: Python
+  url: https://github.com/mbartling/cloud-client-qs-python
+  available: false
+  logo: https://www.python.org/static/opengraph-icon-200x200.png
+  description: "基于python的web应用,可以运行在本地机器,也可以部署到你喜欢的其他云服务上"
+  instructions: | 
+    1. 从github抓取代码`git clone https://github.com/mbartling/cloud-client-qs-python`.
+    1. 将你自己的[API key](https://portal.mbedcloud.com/access/keys)添加到app.py文件中.
+    1. 使用命令安装web应用需要的相关依赖项`pip install -r requirements.txt`.
+    1. 运行应用`python app.py`.
+    1. 使用web浏览器打开上一步中应用终端输出的地址(通常会是[localhost:8080](http://127.0.0.1:8080)).
+
+- IBM-Bluemix:
+  title: IBM-Bluemix
+  url: https://www.ibm.com/cloud-computing/bluemix/
+  available: false
+  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/IBM_Bluemix_logo.svg/1036px-IBM_Bluemix_logo.svg.png
+  description: 即将到来
+  instructions: TBD
+
+- Amazon:
+  title: Amazon
+  url: tbd
+  available: false
+  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png
+  description: 即将到来
+  instructions: TBD
+
+- Microsoft:
+  title: Microsoft
+  url: tbd
+  available: false
+  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/2000px-Microsoft_Azure_Logo.svg.png
+  description: 即将到来
+  instructions: TBD
