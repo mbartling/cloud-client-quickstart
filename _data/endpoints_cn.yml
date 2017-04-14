@@ -10,14 +10,14 @@
   instructions: | 
     ##### 选项 1: 在线编译
     1. [将mbed项目导入你的mbed在线编译工作区](http://developer.mbed.org/compiler/#import:https://github.com/mbartling/mbed-cloud-client-example/#56c6d51).
-    1. 从mbed云端门户网站获取`identity_dev_security.c`文件,[点击这里](https://portal.mbedcloud.com/developer/certificate).
+    1. 从mbed云端门户网站获取`identity_dev_security.c`文件. [点击这里](https://portal.mbedcloud.com/developer/certificate).
     1. 编译代码, 下载镜像文件, 然后将二进制.bin镜像文件拖拽至mbed使能的目标设备.
     1. **[可选择调试]** 使用串口终端程序监控设备端的调试输出信息(默认波特率9600). 也可以通过[mbed云端门户网站设备管理页](https://portal.mbedcloud.com/devices)确认设备已经成功连接到云端并进行其他操作.
 
     ##### 选项 2: 离线编译
     1. 将mbed项目克隆到本地计算机
         `mbed import https://github.com/mbartling/mbed-cloud-client-example/#56c6d51`.
-    1. 从mbed云端门户网站获取`identity_dev_security.c`文件,[点击这里](https://portal.mbedcloud.com/developer/certificate).
+    1. 从mbed云端门户网站获取`identity_dev_security.c`文件. [点击这里](https://portal.mbedcloud.com/developer/certificate).
     1. 使用`mbed compile`命令编译项目工程 (更多mbed-cli信息,请参阅[这里](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
     1. 将编译完成的二进制文件(.bin文件)从`BUILD`目录拖拽到mbed设备.
     1. 等待烧录完成然后重启设备. LED灯会持续闪烁, 直到设备成功连接到mbed云端.
