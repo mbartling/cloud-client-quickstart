@@ -24,7 +24,7 @@
 
 - mbed OS - Wifi:
   title: mbed OS - Wi-Fi ESP8266
-  url: https://github.com/mray19027/mbed-cloud-client-example-sources-internal/tree/simple-client-qs-wifi
+  url: https://github.com/mray19027/mbed-cloud-client-example-sources-internal/tree/qs-wifi-esp8266
   connectivity: Wi-Fi
   os: mbedOS
   available: true
@@ -53,19 +53,29 @@
 
 - mbed OS - Cellular:
   title: mbed OS - Cellular
-  url: false
+  url: https://github.com/mray19027/mbed-cloud-client-example-sources-internal/tree/qs-cellular
   connectivity: cellular
   os: mbedOS
   available: false
   description: quickstart using cellular on mbed OS
   instructions: TODO
 
-- FreeRTOS - Ethernet:
-  title: FreeRTOS - Ethernet
-  url: false
+- Linux (Ubuntu) - Raspberry Pi:
+  title: Linux (Ubuntu) - Raspberry Pi
+  url: https://github.com/mray19027/mbed-cloud-client-example-sources-internal/tree/qs-linux
   connectivity: Ethernet
-  os: FreeRTOS
-  available: false
-  description: quickstart using ethernet on FreeRTOS
-  instructions: TODO
+  os: Linux (Ubuntu)
+  available: true
+  description: quickstart using ethernet on a Raspberry Pi running Ubuntu Linux
+  instructions: |
+    1. Clone project to your computer 
+        `mbed import https://github.com/mray19027/mbed-cloud-client-example-sources-internal/#3f24180dfdd909fe57406062dbe6ae301223da2d`.
+    1. Add [`mbed_cloud_dev_credentials.c` file from the cloud portal](https://portal.us-east-1.mbedcloud.com/developer/certificate).
+    1. Execute the following python script: `python ./pal-platform/mbed_client_tool.py -v deploy --os=Linux_Native --device=x86_x64 --toolchain=GCC --mw=mbedtls`
+    1. Enter the new folder `__x86_x64_Linux_Native`
+    1. Execute the following cmake command: `cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=./../pal-platform/Toolchain/GCC/GCC.cmake -DEXTARNAL_DEFINE_FILE=./../define.txt`
+    1. Make the generated .elf file: `make mbedCloudClientExample.elf`
+    1. Run the application: `./Debug/mbedCloudClientExample.elf`
+    1. **[Optional debug]** You can verify connection to mbed Cloud by checking the [API Console](https://portal.us-east-1.mbedcloud.com/devices).
+
 ---
