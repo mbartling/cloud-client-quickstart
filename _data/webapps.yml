@@ -11,26 +11,26 @@
 
 - nodeJS:
   title: nodeJS
-  url: https://github.com/mbartling/cloud-client-qs-node
+  url: https://github.com/ARMmbed/mbed-cloud-sdk-javascript-quickstart
   available: true
   logo: https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg
   description: nodeJS webapp that can be run locally or deployed to the cloud of your choice.
   instructions: | 
     1. Grab the code `git clone https://github.com/ARMmbed/mbed-cloud-sdk-javascript-quickstart`.
-    1. Add your [API key](https://lab.mbedcloudintegration.net/access/keys) to app.js or the `.env` file.
+    1. Add your [API key](https://portal.us-east-1.mbedcloud.com/access/keys) to app.js or the `.env` file.
     1. install the app dependencies `npm install` .
     1. Run the app `node app.js` .
     1. Open a web browser to the address printed on the terminal (usually [localhost:8080](http://127.0.0.1:8080)).
 
 - Python:
   title: Python
-  url: https://github.com/mbartling/cloud-client-qs-python
+  url: https://github.com/ARMmbed/mbed-cloud-sdk-python-quickstart
   available: true
   logo: https://www.python.org/static/opengraph-icon-200x200.png
   description: python webapp that can be run locally on your machine or deployed to the cloud of your choice.
   instructions: | 
     1. Grab the code `git clone https://github.com/ARMmbed/mbed-cloud-sdk-python-quickstart`.
-    1. Add your [API key](https://lab.mbedcloudintegration.net/access/keys) to app.py.
+    1. Add your [API key](https://portal.us-east-1.mbedcloud.com/access/keys) to app.py.
     1. Install requirements by running `pip install -r requirements.txt`.
     1. Run the app `python app.py`.
     1. Open a web browser to the address printed on the terminal (usually [localhost:8080](http://127.0.0.1:8080)).
