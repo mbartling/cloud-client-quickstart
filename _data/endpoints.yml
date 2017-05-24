@@ -8,14 +8,14 @@
   description: quickstart using ethernet on mbed OS
   instructions: | 
     ##### Option 1: Online Compile
-    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mray19027/mbed-cloud-client-example-sources-internal/#d9193fda1b0932e0594d44cccfbe31a359e4ae62).
+    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mray19027/mbed-cloud-client-example-sources-internal/tree/d9193fda1b0932e0594d44cccfbe31a359e4ae62).
     1. Add [`mbed_cloud_dev_credentials.c` file from the cloud portal](https://portal.us-east-1.mbedcloud.com/developer/certificate).
     1. Compile, download and then drag and drop code to your mbed Enabled board.
     1. **[Optional debug]** Hook up a serial terminal to the board for debug messages. You can verify connection to mbed Cloud by checking the [API Console](https://portal.us-east-1.mbedcloud.com/devices).
 
     ##### Option 2 : Offline Compile
     1. Clone project to your computer 
-        `mbed import https://github.com/mray19027/mbed-cloud-client-example-sources-internal/#d9193fda1b0932e0594d44cccfbe31a359e4ae62`.
+        `mbed import https://github.com/mray19027/mbed-cloud-client-example-sources-internal/tree/d9193fda1b0932e0594d44cccfbe31a359e4ae62`.
     1. Add [`mbed_cloud_dev_credentials.c` file from the cloud portal](https://portal.us-east-1.mbedcloud.com/developer/certificate).
     1. Compile your code using `mbed compile` (for more info on mbed-cli see [here](https://youtu.be/PI1Kq9RSN_Y?list=PLiVCejcvpsetJ1n9nRXzLWvE4dp4RwGOf)).
     1. Drag and drop compiled binary (.bin file) from `BUILD` directory to the board.
@@ -31,7 +31,7 @@
   description: quickstart using wifi on mbed OS
   instructions: | 
     ##### Option 1: Online Compile
-    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mray19027/mbed-cloud-client-example-sources-internal/#f3d30d8ee9e81375116ae3a25e01ad85efe688b6)
+    1. [Import project into your mbed compiler workspace](http://developer.mbed.org/compiler/#import:https://github.com/mray19027/mbed-cloud-client-example-sources-internal/tree/f3d30d8ee9e81375116ae3a25e01ad85efe688b6)
     1. Add [`mbed_cloud_dev_credentials.c` file from the cloud portal](https://portal.us-east-1.mbedcloud.com/developer/certificate).
     1. Change the SSID / PW in mbed_app.json file.
     1. Verify the WIFI TX / RX pins are correct in mbed_app.json file for the specified target.
@@ -40,7 +40,7 @@
 
     ##### Option 2 : Offline Compile
     1. Clone project to your computer 
-        `mbed import https://github.com/mray19027/mbed-cloud-client-example-sources-internal/#f3d30d8ee9e81375116ae3a25e01ad85efe688b6`.
+        `mbed import https://github.com/mray19027/mbed-cloud-client-example-sources-internal/tree/f3d30d8ee9e81375116ae3a25e01ad85efe688b6`.
     1. Add [`mbed_cloud_dev_credentials.c` file from the cloud portal](https://portal.us-east-1.mbedcloud.com/developer/certificate).
     1. Change the SSID / PW in mbed_app.json file.
     1. Verify the WIFI TX / RX pins are correct in mbed_app.json file for the specified target.
@@ -69,7 +69,7 @@
   description: quickstart using ethernet on a Raspberry Pi running Ubuntu Linux
   instructions: |
     1. Clone project to your computer 
-        `mbed import https://github.com/mray19027/mbed-cloud-client-example-sources-internal/#05d71ab50611325bbbae4545034b2b8106abba29`.
+        `mbed import https://github.com/mray19027/mbed-cloud-client-example-sources-internal/tree/05d71ab50611325bbbae4545034b2b8106abba29`.
     1. Add [`mbed_cloud_dev_credentials.c` file from the cloud portal](https://portal.us-east-1.mbedcloud.com/developer/certificate).
     1. Execute the following python script: 
         `python ./pal-platform/mbed_client_tool.py -v deploy --os=Linux_Native --device=x86_x64 --toolchain=GCC --mw=mbedtls`
